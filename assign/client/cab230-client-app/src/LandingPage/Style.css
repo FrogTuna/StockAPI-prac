@@ -1,0 +1,353 @@
+body{
+
+    background-color : cornflowerblue;
+    list-style: none;
+}
+
+.heading-size{
+
+    font-size: 22px;
+}
+
+
+/* button style beside header button */
+.button {
+
+    background-color: #4c4c4c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 12px;
+    cursor: pointer;
+    display: inline-block;
+    
+}
+
+
+.searchBar{
+
+    color: aliceblue;
+    font-size: large;
+
+}
+
+.searchoption {
+
+    
+    display: inline-block;
+    width:172px;
+    height: 30px;
+    
+
+}
+
+.searchButton {
+
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 12px;
+    cursor: pointer;
+    display: inline-block;
+
+
+}
+
+/* // */
+
+
+
+ /* home.js  */
+.Header{
+
+    display: flex;
+    
+}
+
+.leftHeader {
+
+    text-align: left;
+    display: inline-block;
+    
+}
+
+.rightHeader {
+    position: relative;
+    left: 800px;
+    /* text-align: right; */
+
+    display: inline-block;
+}
+
+.Home {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.Stock {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+.Quote {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.PriceHistory {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.Register{
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.login {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+
+}
+
+/* Welcome function */
+.welcome{
+
+    /* position: relative;
+
+    left: 80px; */
+
+    text-align: center;
+
+    color: black;
+
+    font-size: large;
+}
+
+/* end of home.js */
+
+
+
+
+
+/* .PriceHistory.js */
+
+.searchBar-history{
+
+    color: aliceblue;
+    display: inline-block;
+    position: relative;
+    left:500px;
+    font-size: large;
+}
+
+.from{
+
+    color: aliceblue;
+    position: relative;
+    left:530px;
+    display: inline-block;
+    font-size: large;
+
+    
+}
+.to{
+
+    color: aliceblue;
+    position: relative;
+    left:550px;
+    display: inline-block;
+    font-size: large;
+
+    
+}
+.previous-date {
+
+    line-height: 25px;
+    display: inline-block;
+
+}
+.previousdate-button{
+
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 12px;
+    cursor: pointer;
+    display: inline-block;
+
+}
+.current-date {
+
+    line-height: 25px;
+    display: inline-block;
+    
+}
+.currentdate-button {
+
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 12px;
+    cursor: pointer;
+    display: inline-block;
+
+}
+.logout-state{
+
+    font-size: 40px;
+    color:white;
+    text-align: center;
+}
+
+
+
+
+
+/* register and login section */
+
+.login-and-register{
+    position: absolute;
+    left: 800px;
+    line-height: 30px;
+    list-style: none;
+
+}
+
+.login-register-label{
+
+    position: absolute;
+    right:190px;
+    color:white;
+}
+
+.back-to-home{
+
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    position: absolute;
+    right: 800px;
+
+
+}
+
+.Heading-login{
+
+    font-size: 30px;
+    color:white;
+    position: relative;
+    left: 50px;
+}
+
+.Heading-register{
+
+    font-size: 30px;
+    color:white;
+    position: relative;
+    left: 40px;
+    
+}
+
+.username-txt {
+
+    line-height: 30px;
+    position: absolute;
+    left: 10px;
+}
+
+.password-txt {
+
+    line-height: 30px;
+    position: absolute;
+    left:10px;
+}
+
+.user-click-button-login{
+
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #4169E1;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 12px;
+    padding: 5px 65px;
+    cursor: pointer;
+    display: inline-block;
+    /* position: relative;
+    left: 0px; */
+
+}
+
+.user-click-button-register{
+
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #4169E1;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 12px;
+    padding: 5px 55px;
+    cursor: pointer;
+    display: inline-block;
+
+
+}
+
+.check-user{
+
+    font-size: small;
+    position: relative;
+    left: 20px;
+
+}
+
+.login-register-label-register{
+
+    
+    position: absolute;
+    right:190px;
+    color:white;
+
+
+}
+
+
+
+
+
+
+
+
+
